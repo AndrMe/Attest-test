@@ -32,6 +32,7 @@ def New_geometry():
 
 root=Tk()
 root.geometry('400x400')
+root.title('Задание 9')
 canvas=Canvas(bg='black',height=300,width=300)
 canvas.pack()
 but=Button(text='Новая фигура',height=2,width=20,bg='grey',command=New_geometry)
