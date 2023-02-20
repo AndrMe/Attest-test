@@ -18,7 +18,7 @@ def tri():
 def sq():
     a=random.randint(20,40)
     x=random.randint(a,300-a)
-    y=random.randint(a,300-a)  #'oval','triangle','square'
+    y=random.randint(a,300-a)
     canvas.create_rectangle(x-a,y-a,x+a,y+a,fill='red')
 
 def New_geometry():
