@@ -18,7 +18,7 @@ def tri():
 def sq():
     a=random.randint(20,40)
     x=random.randint(a,300-a)
-    y=random.randint(a,300-a)
+    y=random.randint(a,300-a) 
     canvas.create_rectangle(x-a,y-a,x+a,y+a,fill='red')
 
 def New_geometry():
@@ -34,6 +34,6 @@ root=Tk()
 root.geometry('400x400')
 canvas=Canvas(bg='black',height=300,width=300)
 canvas.pack()
-but=Button(height=2,width=20,bg='grey',command=New_geometry)
+but=Button(text='Новая фигура',height=2,width=20,bg='grey',command=New_geometry)
 but.pack()
 root.mainloop()
